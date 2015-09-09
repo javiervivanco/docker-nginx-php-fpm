@@ -4,4 +4,4 @@ services:
 before_script:
   - docker pull alpine:latest
 script:
-  - docker build  -t javiervivanco/dns:latest .
+  - docker build  -t javiervivanco/nginx:latest .

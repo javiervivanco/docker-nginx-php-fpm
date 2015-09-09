@@ -1,8 +1,5 @@
 FROM alpine:latest
 MAINTAINER Javier Vivanco <javier123mendoza (at) gmail (dot) com>
-#ENV PHP_FASTCGI_HOST php
-#ENV PHP_FASTCGI_PORT 9000
-#ENV TLD_DOMAIN_NAME docker
 RUN apk update
 RUN apk add --no-progress \
     ca-certificates \

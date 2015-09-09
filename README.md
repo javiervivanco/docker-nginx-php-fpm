@@ -7,9 +7,9 @@ You need **javiervivanco/docker-dns** to configure in your local machine to reso
 Linked with a container php-fpm server
 
     docker run -it --rm \
-       --link server_123:php-fpm
-       -v my_dir_dev/:/data/
-       -p 80:80
+       --link server_123:php-fpm \
+       -v my_dir_dev/:/data/ \
+       -p 80:80 \
        javiervivanco/docker-nginx-php-fpm
 
 
@@ -41,7 +41,7 @@ Example:
 ## Logs
 
    TODO
-   
+
 ## PHP-FPM env
 
     PHP_FCGI_HOST php
