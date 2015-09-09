@@ -1,4 +1,4 @@
-# Nginx with PHP-FPM
+# Nginx with PHP-FPM [![Build Status](https://travis-ci.org/javiervivanco/docker-nginx-php-fpm.svg?branch=master)](https://travis-ci.org/javiervivanco/docker-nginx-php-fpm)
 
 You need **javiervivanco/docker-dns** to configure in your local machine to resolve name 
 
