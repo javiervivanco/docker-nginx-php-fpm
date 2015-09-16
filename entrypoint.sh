@@ -9,7 +9,6 @@ then
             echo "If is not port 9000 in your link container, please define it. --env=PHP_FCGI_PORT=9001" 1>&2
         fi
     else
-        printenv
         echo "Please define your php-fpm host --env=PHP_FCGI_HOST=php or link container  --link server:php-fpm" 1>&2
         exit 1        
     fi
